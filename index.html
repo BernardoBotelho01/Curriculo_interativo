@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Seu Nome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="barra_lateral">
+            <div class="perfil">
+                <img src="Imagem_curriculo/unnamed.jpg" alt="Foto do Perfil">
+                <h1>Bernardo Botelho</h1>
+                <p>Óla sou Bernardo! Tenho uma natureza muito pró-ativa, facilidade em aprender e sou bastante comunicativo.</p>
+            </div>
+
+            <section class="informacoes_de_contato">
+                <h2>CONTATO PESSOAL</h2>
+                <p><strong>Localização:</strong> Aparecida de goiânia, Goiás</p>
+                <p><strong>Telefone:</strong> (62)9 9211-5334</p>
+                <p><strong>Email:</strong> email@exemplo.com</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/seuperfil</p>
+            </section>
+
+            <section class="habilidades">
+                <h2>HABILIDADES</h2>
+                <ul>
+                    <li>Conhecimento em Informática</li>
+                    <li>Inglês Básico</li>
+                    <li>Pacote Office</li>
+                </ul>
+            </section>
+        </aside>
+
+        <main class="content">
+            <section class="experiencias">
+                <h2>HISTÓRICO PROFISSIONAL</h2>
+                <div class="trabalho">
+                    <ul>
+                        <li><b>Auxiliar de Escritório</b></li>
+                        <p>Femenne jeans - Maio de 2018 a Agosto de 2024</p>
+                        <p>Responsável pelo cadastro de clientes, gerenciamento do balanço e emissão de notas fiscais.</p>
+                    </ul>
+                    <ul>
+                        <li><b>Suporte Tecnico</b></li>
+                        <p>Softwiki - Agosto de 2024 a novembro de 2024</p>
+                        <p>Responsável por atender clientes e da suporte tecnico.
+                    </ul>
+                    <section>
+                        <h2 id="E">Escolaridade</h2>
+                        <ul class="Escolaridade">
+                            <li><b>Ensino Médio Técnico - Técnico de Informática para Internet</b></li>
+                            <p>Cruzeiro do Sul - Goiânia, GO</p>
+                            <p>Desde Maio de 2024</p>
+                            <li><b>Curso Superior - Engenharia de Software</b></li>
+                            <p>Unifan - Aparecida de Goiânia, GO</p>
+                            <p>Desde Agosto de 2023</p>
+                        </ul>
+                    </section>
+                    <!-- Formulário de Contato -->
+    <section id="contato">
+        <h2 id="C">CONTATO</h2>
+        <form id="form-contato">
+            <label for="contato-nome">Nome:</label>
+            <input type="text" id="contato-nome" name="nome" required>
+            
+            <label for="contato-email">Email:</label>
+            <input type="email" id="contato-email" name="email" required>
+            
+            <label for="contato-mensagem">Mensagem:</label></p>
+            <textarea id="contato-mensagem" name="mensagem" required></textarea>
+            
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+    </section>
+                </div>
+                <!-- Adicione mais experiências conforme necessário -->
+            </section>
+        </main>
+    </div>
+    <h2 id="GI">Vagas de Emprego</h2>
+    <section class="galeria">
+        <img src="Imagem_curriculo/2.jpg" alt="Imagem 1">
+        <img src="Imagem_curriculo/3.jpg" alt="Imagem 2">
+        <img src="Imagem_curriculo/4.jpg" alt="Imagem 3">
+    </section>
+    <footer id="rodape">
+        <p><b>Última atualização:</b> <span id="ultimaAtualizacao"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

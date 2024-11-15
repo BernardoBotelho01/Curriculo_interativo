@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.barra_lateral {
+    background-color: #004c7d; /* Cor de fundo lateral */
+    color: white;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px
+
+}
+.perfil {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+    padding: 20px;
+}
+
+.perfil h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.informacoes_de_contato, .habilidades {
+    margin-top: 20px;
+}
+
+.informacoes_de_contato h2, .habilidades h2 {
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.informacoes_de_contato p, .habilidades ul li {
+    margin-bottom: 8px;
+}
+
+.habilidades ul {
+    list-style: none;
+}
+
+.habilidades ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.habilidades ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ffeb3b; /* Cor do marcador */
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.experiencias h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004c7d;
+    margin-bottom: 15px;
+}
+
+.trabalho {
+    margin-bottom: 20px;
+}
+
+.trabalho h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.trabalho p {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+#GI {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #004c7d; 
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+
+/* Estilos para cada imagem */
+.galeria img {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    cursor: pointer;
+}
+
+
+#C{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #004c7d; 
+
+ }
+
+ #form-contato {
+    width: 100%; /* Define a largura do formulário */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 10px;
+}
+
+#form-contato label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#form-contato input[type="text"],
+#form-contato input[type="email"],
+#form-contato textarea {
+    width: 100%; /* Largura das caixas de entrada */
+    max-width: 100%; /* Limita a largura máxima */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#form-contato button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#form-contato button:hover {
+    background-color: #0056b3;
+}
+#rodape{
+   
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black; 
+
+}
